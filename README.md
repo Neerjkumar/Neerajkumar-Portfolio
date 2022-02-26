@@ -90,6 +90,6 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 
 ## account settings
 * Name
-       * Resource Manager: the current model that uses the Azure Resource Manager API
-       * Classic: a legacy offering that uses the Azure Service Management API
+   * Resource Manager: the current model that uses the Azure Resource Manager API
+   * Classic: a legacy offering that uses the Azure Service Management API
 
