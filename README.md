@@ -35,10 +35,12 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 
 
 ## Steps to deploy the project on [Microsoft Azure](https://portal.azure.com/#home)
-* Type "[portal.azure.com](https://portal.azure.com/)" in google search bar
+Markup : * Type "[portal.azure.com](https://portal.azure.com/)" in google search bar
 * Now, login your Microsoft Azure account with your credential. 
 * Click on "Menu". After clicking on Menu, click on "Storage Account". 
 * Create a storage account
 
 ![image](https://user-images.githubusercontent.com/44793025/155853576-399b8c81-42f9-4030-a704-116ec67ab62e.png)
+
+*
 
