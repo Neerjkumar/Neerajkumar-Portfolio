@@ -25,13 +25,16 @@ I have created my portfolio using [HTML](https://www.w3schools.com/html/html_int
 Portfolio (we can also say candidate resume) that contain all details about the candidates. I divided all the skills, project, experience ,.... etc to different-different section. It is very helpful for the recruiters to know all about candidates in just oneshot. Using this strategy we can save the recruiters time and stress.
 
 # Pre-requisites
+* Some programming experience in either C# or JavaScript is assumed.
+* 
+
 
 
 
 # I used [Microsoft Azure](https://portal.azure.com/#home) Services to deploy the project on server.
-* Static Website
-* Storage
-* Containers
+* [Static Website](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website)
+* [Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
+* [Containers](https://azure.microsoft.com/en-in/overview/what-is-a-container/#overview)
 
 
 ## Steps to deploy the project on [Microsoft Azure](https://portal.azure.com/#home)
@@ -62,11 +65,6 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 * Final our portfolio is this. Running on Microsoft Azure.
 
 ![image](https://user-images.githubusercontent.com/44793025/155854581-503b9937-af9e-43c6-9c0f-762fe9682dca.png)
-
-
-
-
-
 
 
 
@@ -144,3 +142,37 @@ az storage account create \
   --sku Standard_LRS \
   --name <name> </code>
   </pre>
+  
+
+
+![image](https://user-images.githubusercontent.com/44793025/155856965-2653dfd4-d476-4803-a6b0-1dbfcdfaa9cb.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155856993-b11f920f-3236-4d52-a40d-0a79ab014a1c.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857025-2b4ef618-f07c-42f8-a9bf-e2738c1c9fd2.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857049-6dc4c586-e613-4748-825e-def08934e79d.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857069-c6f67dfa-3b23-4b1f-bf3b-85e2cb7392d3.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857108-78db94e1-45d0-45ae-995e-0982b99506d1.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857138-6606793f-cfbc-427d-abcf-c4a18ce1acd8.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857165-55a77c74-d702-41aa-a001-51d4d8a6dbe4.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857189-db3412d0-b73b-44dc-848d-c0d1d2477d99.png)
+
+
+![image](https://user-images.githubusercontent.com/44793025/155857207-90a0c07c-6955-46ed-ba0b-812dcf9a699b.png)
+
+
+
