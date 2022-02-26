@@ -88,7 +88,7 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 * Secure transfer required: A security feature that determines the supported protocols for access. Enabled requires HTTPS, while disabled allows HTTP.
 * Virtual networks: A security feature that allows inbound access requests only from the virtual network(s) you specify.
 
-## account settings
+## [Account settings](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/3-choose-your-account-settings)
 * Name
    * Each storage account has a name. The name must be globally unique within Azure, use only lowercase letters and digits and be between 3 and 24 characters.
    
@@ -99,3 +99,22 @@ Portfolio (we can also say candidate resume) that contain all details about the 
    * StorageV2 (general purpose v2): the current offering that supports all storage types and all of the latest features
    * Storage (general purpose v1): a legacy kind that supports all storage types but may not support all features
    * Blob storage: a legacy kind that allows only block blobs and append blobs
+
+## [Account creation tool](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/4-choose-an-account-creation-tool)
+* [Azure Portal](https://portal.azure.com/)
+   1. Sign in to the [Azure portal](https://portal.azure.com/) using the same account.
+   2. On the resource menu, or from the Home page, select Storage accounts. The Storage accounts pane appears.
+   3. On the command bar, select Create. The Create a storage account pane appears.
+   4. On the Basics tab, enter the following values for each setting.
+   5. Select Next : Advanced. On the Advanced tab, enter the following values for each setting.
+   6. Select Next : Networking. On the Networking tab, enter the following values for each setting.
+   7. Select Next : Data protection. On the Data protection tab, enter the following values for each setting.
+   8. Select Next : Encryption. Accept the defaults.
+   9. Select Next : Tags. Here, you can associate key/value pairs with the account for your categorization to determine if a feature is available to selected Azure resources.
+   10. Select Review + create to validate your options and to ensure all the required fields are selected. If there are issues, this tab will identify them so you can correct them.
+   11. When validation passes successfully, select Create to deploy the storage account.
+   12. When deployment is complete, which may take up to two minutes, select Go to resource to view Essential details about your new storage account.
+
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/#:~:text=The%20Azure%20command%2Dline%20interface,with%20an%20emphasis%20on%20automation.) (Command-line interface)
+* [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/?view=azps-7.2.0#:~:text=Azure%20PowerShell%20is%20a%20collection,managing%20Azure%20resources%20from%20PowerShell.)
+* [Management client libraries](https://docs.microsoft.com/en-us/java/api/overview/azure/core-management-readme?view=azure-java-stable)
