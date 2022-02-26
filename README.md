@@ -79,13 +79,17 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 * Subscription: The Azure subscription that will be billed for the services in the account.
 * Location: The datacenter that will store the services in the account.
 * Performance: Determines the data services you can have in your storage account and the type of hardware disks used to store the data. <br>
-        * Nested bullet
+   
         
-        * Standard allows you to have any data service (Blob, File, Queue, Table) and uses magnetic disk drives.
-        * Premium provides more services for storing data. For example, storing unstructured object data as block blobs or append blobs, and specialized file storage used to store and create premium file shares. These storage accounts use solid-state drives (SSD) for storage.
+        Standard allows you to have any data service (Blob, File, Queue, Table) and uses magnetic disk drives.
+        Premium provides more services for storing data. For example, storing unstructured object data as block blobs or append blobs, and specialized file storage used to store and create premium file shares. These storage accounts use solid-state drives (SSD) for storage.
 * Replication: Determines the strategy used to make copies of your data to protect against hardware failure or natural disaster. At a minimum, Azure automatically maintains three copies of your data within the datacenter associated with the storage account. The minimum replication is called locally redundant storage (LRS), and guards against hardware failure but does not protect you from an event that incapacitates the entire datacenter. You can upgrade to one of the other options such as geo-redundant storage (GRS) to get replication at different datacenters across the world.
 * Access tier: Controls how quickly you will be able to access the blobs in a storage account. Hot gives quicker access than Cool, but at increased cost. Hot access tier applies only to blobs, and serves as the default value for new blobs.
 * Secure transfer required: A security feature that determines the supported protocols for access. Enabled requires HTTPS, while disabled allows HTTP.
 * Virtual networks: A security feature that allows inbound access requests only from the virtual network(s) you specify.
 
+## account settings
+* Name
+       * Resource Manager: the current model that uses the Azure Resource Manager API
+       * Classic: a legacy offering that uses the Azure Service Management API
 
