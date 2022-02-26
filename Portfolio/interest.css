@@ -1,0 +1,38 @@
+body {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    background-color: rgb(187, 218, 152);
+}
+
+#head {
+    background-color: rgb(168, 154, 154);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#imag {
+    margin-left: 300px;
+    height: 400px;
+    width: 500px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#int_top {
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    background-color: #2d2013;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid maroon;
+}

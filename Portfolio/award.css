@@ -1,0 +1,35 @@
+body {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: rgb(207, 205, 205);
+}
+
+#head {
+    background-color: rgb(168, 154, 154);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#image {
+    margin-left: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#btn {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-left: 700px;
+    height: 20px;
+    width: 300px;
+    background-color: rgb(238, 218, 42);
+    border: 1px solid black;
+    border-radius: 15px;
+}

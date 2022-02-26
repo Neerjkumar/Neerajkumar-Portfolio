@@ -1,0 +1,201 @@
+body {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgb(247, 235, 235);
+}
+
+.skills1 {
+    background-color: #bb9393;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.progress {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.progress-done {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 65%;
+}
+
+#skill1 {
+    background-color: #ee8d8d;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.progress2 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.progress-done2 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.progress3 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.progress-done3 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 75%;
+}
+
+.progress4 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.progress-done4 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 75%;
+}
+
+.progress5 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.progress-done5 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 75%;
+}
+
+.contain {
+    margin-left: 120vh;
+    margin-top: -113vh;
+}
+
+#skil {
+    padding-left: 15px;
+    background-color: #ee8d8d;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.other_skil0 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.other_skil10 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 80%;
+}
+
+.other_skil2 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.other_skil12 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 90%;
+}
+
+.other_skil3 {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.other_skil13 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 70%;
+}
+
+.other_skil {
+    background-color: #bb8c8c;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+.other_skil1 {
+    padding-left: 15px;
+    background-color: orangered;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#btn {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-left: 700px;
+    height: 20px;
+    width: 200px;
+    background-color: rgb(238, 218, 42);
+    border: 1px solid black;
+    border-radius: 15px;
+}

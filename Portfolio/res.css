@@ -1,0 +1,158 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .header {
+        display: flex;
+        height: 60vh;
+        background-image: url(img/background.jpg);
+        background-size: cover;
+        background-position: center;
+        position: sticky;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    #secial_media {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    
+    .user_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #profile {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 3px rgb(5, 148, 243) solid;
+        align-items: flex-start;
+        position: relative;
+    }
+    
+    #name {
+        color: black;
+        font-weight: bold;
+        font-size: 100px;
+        position: relative;
+    }
+    
+    .user_info p {
+        color: maroon;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .footer {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: rgb(66, 66, 66);
+        border-top: 1px solid #8beb05;
+        position: fixed;
+    }
+    
+    .footer_left {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .footer_right {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+    
+    .lst {
+        display: flex;
+        padding: .35rem;
+        align-items: center;
+        color: rgb(194, 236, 4);
+        font-size: 16px;
+        font-weight: bold;
+        font-family: arial, sans-serif;
+    }
+    
+    .summery {
+        display: flex;
+        top: -10vh;
+        height: 80vh;
+        width: 100%;
+        font-family: 'Sofia';
+        font-weight: bold;
+        font-size: 20px;
+        background-image: url(img/xyz.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: inherit;
+    }
+    
+    .main_about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    #aboutme {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 2vh;
+        font-family: 'Sofia';
+        font-size: 48px;
+        color: rgb(7, 7, 7);
+    }
+    
+    #sign {
+        padding-right: 20px;
+        display: flex;
+        color: rgb(20, 4, 243);
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: row-reverse;
+        text-align: end;
+    }
+    
+    #heading {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    .bottom {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background: rgb(153, 69, 69);
+        border-top: 1px solid #8beb05;
+    }
+    
+    .bottom {
+        height: 13vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: rgb(126, 123, 123);
+        border-top: 1px solid #8beb05;
+    }
+    
+    .btm {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+        color: maroon;
+    }

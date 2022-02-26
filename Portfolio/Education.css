@@ -1,0 +1,50 @@
+body {
+    font-family: 'Tahoma';
+}
+
+#head {
+    background-color: rgb(168, 154, 154);
+    border-radius: 20px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    margin: auto;
+    font-size: 30px;
+    border: 2px solid black;
+    border-spacing: 10px 20px;
+}
+
+table {
+    background-color: #cad7df;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+#back {
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    background-color: #2d2013;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid maroon;
+}

@@ -1,0 +1,26 @@
+body {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    background-color: rgb(252, 237, 189);
+}
+
+#head {
+    background-color: rgb(168, 154, 154);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#image {
+    margin-left: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
