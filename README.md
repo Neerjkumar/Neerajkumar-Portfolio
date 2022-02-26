@@ -136,8 +136,10 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 
 # Create an Azure storage account
 * Use the following example command to create a storage account. Remember to replace <name> with your unique storage account name.
-     *az storage account create \
+<pre>==$0
+   <code> az storage account create \
   --resource-group [sandbox resource group name] \
   --location westus \
   --sku Standard_LRS \
-  --name <name>
+  --name <name> </code>
+  </pre>
