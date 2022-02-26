@@ -90,6 +90,12 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 
 ## account settings
 * Name
+   * Each storage account has a name. The name must be globally unique within Azure, use only lowercase letters and digits and be between 3 and 24 characters.
+   
+* Deployment model
    * Resource Manager: the current model that uses the Azure Resource Manager API
    * Classic: a legacy offering that uses the Azure Service Management API
-
+* Account kind
+   * StorageV2 (general purpose v2): the current offering that supports all storage types and all of the latest features
+   * Storage (general purpose v1): a legacy kind that supports all storage types but may not support all features
+   * Blob storage: a legacy kind that allows only block blobs and append blobs
