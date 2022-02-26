@@ -118,3 +118,26 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 * [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/#:~:text=The%20Azure%20command%2Dline%20interface,with%20an%20emphasis%20on%20automation.) (Command-line interface)
 * [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/?view=azps-7.2.0#:~:text=Azure%20PowerShell%20is%20a%20collection,managing%20Azure%20resources%20from%20PowerShell.)
 * [Management client libraries](https://docs.microsoft.com/en-us/java/api/overview/azure/core-management-readme?view=azure-java-stable)
+
+
+## Data types in Azure storage services
+* Blobs: A massively scalable object store for text and binary data. Can include support for Azure Data Lake Storage Gen2.
+   * Serving images or documents directly to a browser, including full static websites.
+   * Storing files for distributed access.
+   * Streaming video and audio.
+   * Storing data for backup and restoration, disaster recovery, and archiving.
+   * Storing data for analysis by an on-premises or Azure-hosted service.
+* Files: Managed file shares for cloud or on-premises deployments.
+   * Storing shared configuration files for VMs, tools, or utilities so that everyone is using the same version.
+   * Log files such as diagnostics, metrics, and crash dumps.
+   * Shared data between on-premises applications and Azure VMs to allow migration of apps to the cloud over a period of time.
+* Queues: A messaging store for reliable messaging between application components.
+* [Table Storage](https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview): A NoSQL store for schema-less storage of structured data. Table Storage is not covered in this module.
+
+# Create an Azure storage account
+* Use the following example command to create a storage account. Remember to replace <name> with your unique storage account name.
+     *az storage account create \
+  --resource-group [sandbox resource group name] \
+  --location westus \
+  --sku Standard_LRS \
+  --name <name>
