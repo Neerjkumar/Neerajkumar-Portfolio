@@ -35,12 +35,43 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 
 
 ## Steps to deploy the project on [Microsoft Azure](https://portal.azure.com/#home)
-Markup : * Type "[portal.azure.com](https://portal.azure.com/)" in google search bar
+* Type "[portal.azure.com](https://portal.azure.com/)" in google search bar
 * Now, login your Microsoft Azure account with your credential. 
 * Click on "Menu". After clicking on Menu, click on "Storage Account". 
 * Create a storage account
 
 ![image](https://user-images.githubusercontent.com/44793025/155853576-399b8c81-42f9-4030-a704-116ec67ab62e.png)
 
-*
+* After Creating the Storage account, click "Go to the resources".
+* Click on "Static Website" write "Index document name" after writing this save it.
+
+![image](https://user-images.githubusercontent.com/44793025/155854246-be1c6360-db7f-4910-ab59-65336018a2bd.png)
+
+* Click on "Container" after clicking on container click on "$web".
+
+![image](https://user-images.githubusercontent.com/44793025/155854356-18837b31-7ff4-4df7-ac09-6bed04ca5332.png)
+
+* Now click on "Upload" select file and upload it.
+
+![image](https://user-images.githubusercontent.com/44793025/155854445-4db4cc7f-5910-4e3f-935a-90e2196f1d78.png)
+
+* Go back to Static website and copy the URL. After copyed the URL open new tap and paste the copied link and hit enter.
+
+![image](https://user-images.githubusercontent.com/44793025/155854532-46ec2806-d703-4f0c-962b-652fbd5af992.png)
+
+* Final our portfolio is this. Running on Microsoft Azure.
+
+![image](https://user-images.githubusercontent.com/44793025/155854581-503b9937-af9e-43c6-9c0f-762fe9682dca.png)
+
+
+
+
+
+
+
+
+
+
+# Learning objectives
+
 
