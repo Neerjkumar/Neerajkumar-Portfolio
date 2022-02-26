@@ -80,6 +80,7 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 * Location: The datacenter that will store the services in the account.
 * Performance: Determines the data services you can have in your storage account and the type of hardware disks used to store the data. <br>
         * Nested bullet
+        
         * Standard allows you to have any data service (Blob, File, Queue, Table) and uses magnetic disk drives.
         * Premium provides more services for storing data. For example, storing unstructured object data as block blobs or append blobs, and specialized file storage used to store and create premium file shares. These storage accounts use solid-state drives (SSD) for storage.
 * Replication: Determines the strategy used to make copies of your data to protect against hardware failure or natural disaster. At a minimum, Azure automatically maintains three copies of your data within the datacenter associated with the storage account. The minimum replication is called locally redundant storage (LRS), and guards against hardware failure but does not protect you from an event that incapacitates the entire datacenter. You can upgrade to one of the other options such as geo-redundant storage (GRS) to get replication at different datacenters across the world.
