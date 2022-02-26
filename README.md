@@ -1,6 +1,6 @@
 # Neerajkumar-Portfolio
 
-A personal portfolio is an evidentiary document designed to provide qualitative and quantitative information.
+A [personal portfolio](https://neerajkumarportfolio.z5.web.core.windows.net/) is an evidentiary document designed to provide qualitative and quantitative information.
 
 Clients want to see your thought process and the ideas behind your designs. Our creative recruiters recommend that your portfolio include mood boards, color stories, silhouette and print ideas, hand and/or illustrator sketches as well as the final product shots.
 
@@ -19,3 +19,26 @@ I have created my portfolio using [HTML](https://www.w3schools.com/html/html_int
 * Consider listing awards and accolades
 * Add a few personal details
 * Include a photo of yourself
+
+
+## Benifites
+Portfolio (we can also say candidate resume) that contain all details about the candidates. I divided all the skills, project, experience ,.... etc to different-different section. It is very helpful for the recruiters to know all about candidates in just oneshot. Using this strategy we can save the recruiters time and stress.
+
+# Pre-requisites
+
+
+
+# I used [Microsoft Azure](https://portal.azure.com/#home) Services to deploy the project on server.
+* Static Website
+* Storage
+* Containers
+
+
+## Steps to deploy the project on [Microsoft Azure](https://portal.azure.com/#home)
+* Type "[portal.azure.com](https://portal.azure.com/)" in google search bar
+* Now, login your Microsoft Azure account with your credential. 
+* Click on "Menu". After clicking on Menu, click on "Storage Account". 
+* Create a storage account
+
+![image](https://user-images.githubusercontent.com/44793025/155853288-b98a3239-539a-4b0e-8b71-34e9db14bcea.png)
+
