@@ -77,7 +77,7 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 ## Storage account settings 
 * Subscription: The Azure subscription that will be billed for the services in the account.
 * Location: The datacenter that will store the services in the account.
-* Performance: Determines the data services you can have in your storage account and the type of hardware disks used to store the data.
+* Performance: Determines the data services you can have in your storage account and the type of hardware disks used to store the data. <br>
 ** Standard allows you to have any data service (Blob, File, Queue, Table) and uses magnetic disk drives.
 ** Premium provides more services for storing data. For example, storing unstructured object data as block blobs or append blobs, and specialized file storage used to store and create premium file shares. These storage accounts use solid-state drives (SSD) for storage.
 
