@@ -40,5 +40,5 @@ Portfolio (we can also say candidate resume) that contain all details about the 
 * Click on "Menu". After clicking on Menu, click on "Storage Account". 
 * Create a storage account
 
-![image](https://user-images.githubusercontent.com/44793025/155853288-b98a3239-539a-4b0e-8b71-34e9db14bcea.png)
+![image](https://user-images.githubusercontent.com/44793025/155853576-399b8c81-42f9-4030-a704-116ec67ab62e.png)
 
