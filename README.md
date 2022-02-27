@@ -176,3 +176,18 @@ az storage account create \
 
 
 
+
+
+
+
+# Further Learning
+* [Azure Portal](https://portal.azure.com/#home)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/#:~:text=The%20Azure%20command%2Dline%20interface,with%20an%20emphasis%20on%20automation.)
+* [Configure storage accounts](https://docs.microsoft.com/en-us/learn/modules/configure-storage-accounts/)
+* [Configure blob storage](https://docs.microsoft.com/en-us/learn/modules/configure-blob-storage/)
+* [Configure storage security](https://docs.microsoft.com/en-us/learn/modules/configure-storage-security/)
+* [Configure Azure files and Azure File Sync](https://docs.microsoft.com/en-us/learn/modules/configure-azure-files-file-sync/)
+* [Configure storage with tools](https://docs.microsoft.com/en-us/learn/modules/configure-storage-tools/)
+* [Create an Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/)
+* [Control access to Azure Storage with shared access signatures](https://docs.microsoft.com/en-us/learn/modules/control-access-to-azure-storage-with-sas/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-104-manage-storage)
+* [Upload, download, and manage data with Azure Storage Explorer](https://docs.microsoft.com/en-us/learn/modules/upload-download-and-manage-data-with-azure-storage-explorer/)
